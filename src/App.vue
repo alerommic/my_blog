@@ -8,7 +8,7 @@
     </div>
   </header>
 
-  <RouterView/>
+  <RouterView />
 </template>
 
 

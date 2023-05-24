@@ -1,11 +1,15 @@
 <template>
+  <Title :Title="aboutTitle"></Title>
   <div class="about">
+    
     <h1>This is an about page</h1>
   </div>
 </template>
 
 <script setup>
-import Alex from '../components/Nav.vue'
+import Title from '../components/Mytitle.vue'
+
+const aboutTitle ="about title"
 </script>
 
 <style>

@@ -1,14 +1,17 @@
 <template>
+     <Nav>
+
+</Nav>
   <header>
     <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About holas</RouterLink>
-      </nav>
+    
     </div>
   </header>
 
   <RouterView />
 </template>
 
-
+<script setup>
+import Nav from './components/Nav.vue'
+import Title from './components/Mytitle.vue'
+</script>

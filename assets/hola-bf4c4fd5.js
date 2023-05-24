@@ -1,0 +1,1 @@
+import{r as a,o as s,c as t,a as e,F as n,b as c,_}from"./index-25b8637f.js";const r=c("h1",null,"esto es un test",-1),i={__name:"hola",setup(l){return(m,p)=>{const o=a("B");return s(),t(n,null,[e(_,{Title:"Hola soy un HOla "}),e(o),r],64)}}};export{i as default};
